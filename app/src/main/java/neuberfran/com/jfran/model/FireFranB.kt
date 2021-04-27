@@ -8,7 +8,7 @@ class FireFranB {
     companion object Factory {
         fun create() : FireViewModel = FireViewModel()
         var COLLECTION = "device-configs"
-        var DOCUMENT = "alarme"
+        var DOCUMENT = "garagem"
         var FIELD_userId = "userId"
     }
     var garagestate: Boolean = false

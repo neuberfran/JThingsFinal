@@ -4,7 +4,7 @@ import neuberfran.com.jfran.viewmodel.FireViewModel
 
 class FireFranB {
 
-    var value: Map<String, Int> = mapOf("value.openPercent" to 0)
+    var value: Map<String, Int> = mapOf("openPercent" to 0)
     companion object Factory {
         fun create() : FireViewModel = FireViewModel()
         var COLLECTION = "device-configs"

@@ -4,7 +4,7 @@ import neuberfran.com.jfran.viewmodel.FireViewModel
 
 class FireFran {
 
-    var value:  Map<String, Boolean> = mapOf("value.on" to false)
+    var value:  Map<String, Boolean> = mapOf("on" to false)
     companion object Factory {
         fun create() :FireViewModel = FireViewModel()
         var COLLECTION = "device-configs"
